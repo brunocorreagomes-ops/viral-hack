@@ -1,0 +1,107 @@
+{
+  "slug": "projetor-astronauta-galaxy",
+  "produto": "Luminária Projetor de Galáxia Astronauta",
+  "descricaoCurta": "Analisamos a luminária que inundou o Instagram e o TikTok. O efeito de nebulosa colorida realmente transforma o quarto ou é apenas luz forte que cansa a vista?",
+  "categoria": "tech",
+  "metodologia": "curadoria",
+  "veredito": "Vale a pena? Absolutamente sim. É um dos melhores efeitos visuais de baixo custo.",
+  "vereditoDetalhado": "O projetor de astronauta não é só mais uma modinha passageira. Nossa curadoria profunda, analisando mais de 450 avaliações de compradores e dezenas de vídeos sem filtro, revela que a qualidade da projeção da nebulosa é impressionante. As cores são vivas, o laser verde de estrelas é potente e a cabeça magnética giratória facilita o direcionamento. Os únicos pontos de atenção são o controle remoto frágil e o barulho sutil do motor.",
+  "precoMedio": "R$ 69,90",
+  "notas": {
+    "funcionalidade": 9.2,
+    "custoBeneficio": 8.5,
+    "durabilidade": 7.0,
+    "valeOHype": 9.5
+  },
+  "pros": [
+    "Projeção extremamente brilhante e com amplo ângulo de cobertura",
+    "Cabeça magnética gira 360° com facilidade extrema",
+    "Múltiplos modos de cores da nebulosa ajustáveis por controle remoto",
+    "Possui temporizador de desligamento automático (ótimo para crianças dormirem)"
+  ],
+  "contras": [
+    "O laser verde de estrelas não tem ajuste de cor e pode ser muito forte para olhar diretamente",
+    "Controle remoto necessita de pilhas AAA e tem alcance curto",
+    "O cabo USB que acompanha o produto é curto (cerca de 1 metro)",
+    "Pequeno ruído mecânico quando a rotação da nebulosa está ativada"
+  ],
+  "paraQuemVale": "Para quem quer dar um visual sci-fi/gamer sensacional para o quarto, ou busca uma luz de presença relaxante para crianças pequenas superarem o medo do escuro.",
+  "paraQuemNaoVale": "Para quem espera estrelas realistas baseadas em constelações reais (as estrelas são pontos laser verdes arbitrários) ou exige silêncio absoluto no quarto.",
+  "fotos": [
+    "/assets/projetor_astronauta.png"
+  ],
+  "especificacoes": {
+    "Material": "Plástico ABS e Policarbonato",
+    "Fonte de Luz": "LED (Nebulosa) + Laser 532nm (Estrelas verdes)",
+    "Controle de Direção": "Cabeça conectada por imãs com rotação de 360°",
+    "Alimentação": "Cabo USB DC 5V/1A (fonte de tomada não inclusa)",
+    "Área de Projeção": "Aproximadamente 15 a 20 metros quadrados",
+    "Funções Temporizador": "Desligamento automático em 45 ou 90 minutos"
+  },
+  "linksAfiliado": [
+    {
+      "plataforma": "amazon",
+      "url": "https://www.amazon.com.br/s?k=projetor+astronauta+galaxia",
+      "prioridade": 1,
+      "prazoEntrega": "2-4 dias (Frete Prime grátis)"
+    },
+    {
+      "plataforma": "mercadolivre",
+      "url": "https://lista.mercadolivre.com.br/projetor-astronauta-galaxia",
+      "prioridade": 2,
+      "prazoEntrega": "Chega amanhã na maioria das capitais"
+    },
+    {
+      "plataforma": "aliexpress",
+      "url": "https://pt.aliexpress.com/w/wholesale-astronaut-galaxy-projector.html",
+      "prioridade": 3,
+      "prazoEntrega": "8-12 dias (Preço mais baixo)"
+    }
+  ],
+  "alternativas": [
+    {
+      "nome": "Projetor Globo de Galáxia Estilo Humidificador",
+      "precoAproximado": "R$ 45,00",
+      "pontosFortes": [
+        "Mais barato",
+        "Também funciona como umidificador de ar"
+      ],
+      "pontosFracos": [
+        "Área de projeção reduzida",
+        "Efeito de nebulosa estático e sem cabeça articulada"
+      ],
+      "link": "https://www.amazon.com.br/s?k=projetor+globo+galaxia+umidificador",
+      "plataforma": "Amazon"
+    }
+  ],
+  "faq": [
+    {
+      "pergunta": "O laser verde de estrelas é perigoso para os olhos?",
+      "resposta": "Sim, se houver contato visual direto e prolongado. O projetor utiliza um laser classe 2 que é seguro para reflexões indiretas no teto, mas você nunca deve olhar diretamente para a lente do emissor de laser. Se for colocar no quarto de uma criança, posicione-o em uma altura em que ela não consiga olhar diretamente para os olhos do astronauta."
+    },
+    {
+      "pergunta": "Ele funciona fora da tomada, tem bateria?",
+      "resposta": "Não. Este modelo funciona apenas conectado de forma contínua a uma fonte de alimentação USB (pode ser o carregador do seu celular ou a porta USB de um computador/videogame). Ele não possui bateria recarregável interna."
+    },
+    {
+      "pergunta": "Consigo desligar as estrelas verdes e deixar apenas a nebulosa colorida?",
+      "resposta": "Sim! Pelo controle remoto ou pelos botões na mochila do astronauta, você consegue controlar as estrelas e a nebulosa de forma totalmente independente. É possível deixar só a nebulosa se movimentando, só as estrelas estáticas/piscando, ou ambos ligados."
+    }
+  ],
+  "conteudoDetalhado": [
+    {
+      "titulo": "A Estética Real vs. O Filtro de Rede Social",
+      "texto": "Nos vídeos do TikTok, o projetor de astronauta frequentemente parece iluminar um salão de festas inteiro com cores dignas de computação gráfica. Na vida real, a projeção é extremamente fiel a esses vídeos se o quarto estiver totalmente escuro. O efeito de nuvens se movendo lentamente (com velocidade ajustável) é incrivelmente orgânico e as transições de cores são suaves, sem transições bruscas que quebram o clima."
+    },
+    {
+      "titulo": "Análise de Construção e Ergonomia",
+      "texto": "O grande trunfo de design deste aparelho é a fixação magnética da cabeça sobre o corpo do astronauta. Ao contrário de outros projetores circulares que exigem calços de plástico para mirar para cima, o astronauta permite mirar em qualquer ângulo (teto, paredes laterais ou chão) simplesmente girando a cabeça que desliza sobre um imã potente. No entanto, o cabo que sai da mochila do astronauta e entra na base restringe um pouco movimentos muito bruscos."
+    },
+    {
+      "titulo": "Dados do Nosso Estudo Comparativo de Compradores",
+      "texto": "Avaliando reclamações de pós-venda, o calcanhar de Aquiles do produto é a fonte de alimentação. Muitas pessoas tentam ligá-lo em carregadores de celular 'Turbo' de alta amperagem, o que pode queimar a placa controladora interna. O ideal é usar uma porta USB padrão de TV, videogame ou um carregador de celular comum antigo de 5V e 1A para garantir a durabilidade do motor de rotação."
+    }
+  ],
+  "dataPublicacao": "2026-06-28",
+  "dataAtualizacao": "2026-07-05"
+}

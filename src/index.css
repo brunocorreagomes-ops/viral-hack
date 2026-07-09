@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@theme {
+  --font-display: "Bebas Neue", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+
+  --color-brand-neon: #ccff00;
+  --color-brand-neon-hover: #b2e000;
+  --color-brand-dark: #070709;
+  --color-brand-card: #101014;
+  --color-brand-border: #1c1c24;
+  --color-brand-grid: rgba(204, 255, 0, 0.04);
+}
+
+/* Custom styles for our technical laboratory aesthetic */
+@layer base {
+  body {
+    background-color: var(--color-brand-dark);
+    color: #e4e4e7;
+    font-family: var(--font-sans);
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Engineering/Graph-paper background pattern */
+.bg-grid-pattern {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, var(--color-brand-grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-brand-grid) 1px, transparent 1px);
+}
+
+/* Subtle scanned paper texture */
+.bg-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.015) 1px, transparent 0);
+  background-size: 4px 4px;
+}
+
+/* Ink stamp hover transition and styles */
+.stamp-glow {
+  box-shadow: 0 0 15px rgba(204, 255, 0, 0.1);
+}
+.stamp-glow:hover {
+  box-shadow: 0 0 25px rgba(204, 255, 0, 0.25);
+}

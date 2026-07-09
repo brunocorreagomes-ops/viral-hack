@@ -1,0 +1,107 @@
+{
+  "slug": "limpador-telas-2em1",
+  "produto": "Limpador de Telas Spray e Microfibra 2 em 1",
+  "descricaoCurta": "O gadget em formato de bloco revestido que promete limpar celular, tablet e notebook em segundos. Ele realmente limpa marcas de dedo ou só espalha gordura pela tela?",
+  "categoria": "organizacao",
+  "metodologia": "misto",
+  "veredito": "Vale a pena? Sim, é um dos gadgets mais úteis e práticos para carregar na mochila.",
+  "vereditoDetalhado": "O limpador de telas 2 em 1 resolve o problema de carregar um pano de microfibra solto e um frasco desengonçado de limpa-telas. Ele une os dois em um bloco retangular super compacto. Nos nossos testes físicos com celulares engordurados por pizza e dedos sujos, ele limpou as telas perfeitamente com apenas duas borrifadas e uma passada rápida. Mas atenção: a capa de microfibra acumula sujeira com o tempo e exige lavagem periódica para não arranhar telas sensíveis.",
+  "precoMedio": "R$ 19,90",
+  "notas": {
+    "funcionalidade": 8.8,
+    "custoBeneficio": 8.0,
+    "durabilidade": 6.5,
+    "valeOHype": 7.5
+  },
+  "pros": [
+    "Design brilhante: borrifador e pano integrados no mesmo bloco compacto",
+    "Acompanha capa acrílica protetora transparente para não molhar ou sujar a mochila",
+    "Frasco interno é recarregável (você pode colocar álcool isopropílico ou água destilada)",
+    "Pano de microfibra de alta densidade limpa gordura sem riscar"
+  ],
+  "contras": [
+    "A microfibra é colada no bloco, tornando a secagem um pouco demorada",
+    "O reservatório de líquido é pequeno (apenas 10ml, dura cerca de 100 borrifadas)",
+    "Se você não limpar a poeira grossa da tela antes, pode acumular areia na microfibra e arranhar em passadas futuras",
+    "Pode vir vazio dependendo do lote do vendedor (é necessário abastecer)"
+  ],
+  "paraQuemVale": "Para quem trabalha fora de casa, usa muito notebook e tablet, ou odeia ver a tela do smartphone cheia de marcas de dedo e gordura de comida.",
+  "paraQuemNaoVale": "Para quem prefere usar o clássico combo de flanela comum de óculos com um frasco grande de álcool em cima da mesa do escritório.",
+  "fotos": [
+    "/assets/limpador_telas.png"
+  ],
+  "especificacoes": {
+    "Material": "Corpo em ABS revestido com tecido microfibra ultra-fino",
+    "Capacidade do Frasco": "10 ml (recarregável)",
+    "Líquido Incluso": "Geralmente vem vazio (recomenda-se mistura de água destilada e limpador específico)",
+    "Capa de Proteção": "Plástico acrílico rígido transparente",
+    "Lavável": "Sim (enxaguar o bloco inteiro com sabão neutro e água morna)",
+    "Peso": "Cerca de 40g (com líquido)"
+  },
+  "linksAfiliado": [
+    {
+      "plataforma": "shopee",
+      "url": "https://shopee.com.br/search?keyword=limpador%20de%20telas%202%20em%201",
+      "prioridade": 1,
+      "prazoEntrega": "4-8 dias (Vendedores nacionais disponíveis)"
+    },
+    {
+      "plataforma": "amazon",
+      "url": "https://www.amazon.com.br/s?k=limpador+de+telas+2+em+1+spray",
+      "prioridade": 2,
+      "prazoEntrega": "3-5 dias (Frete Prime)"
+    },
+    {
+      "plataforma": "aliexpress",
+      "url": "https://pt.aliexpress.com/w/wholesale-2-in-1-screen-cleaner-spray.html",
+      "prioridade": 3,
+      "prazoEntrega": "10 dias (Super barato no Choice)"
+    }
+  ],
+  "alternativas": [
+    {
+      "nome": "Kit Limpa Telas Tradicional (Frasco 120ml + Flanela)",
+      "precoAproximado": "R$ 24,90",
+      "pontosFortes": [
+        "Frasco muito maior (dura anos)",
+        "Pano separado é mais fácil de lavar"
+      ],
+      "pontosFracos": [
+        "Ocupa muito espaço",
+        "Impossível carregar no bolso ou estojo pequeno de forma prática"
+      ],
+      "link": "https://www.amazon.com.br/s?k=kit+limpa+telas+flanela",
+      "plataforma": "Amazon"
+    }
+  ],
+  "faq": [
+    {
+      "pergunta": "Como faço para reabastecer o líquido limpador?",
+      "resposta": "Basta puxar o bloco de microfibra para cima, retirando-o da capa externa. O frasco interno de plástico com borrifador sairá por inteiro. Desrosqueie a tampinha do borrifador e encha com o seu líquido de preferência (recomendamos água destilada com 10% de álcool isopropílico ou soluções específicas para telas vendidas em informática)."
+    },
+    {
+      "pergunta": "Como faço para lavar a microfibra se ela estiver muito suja de gordura?",
+      "resposta": "Você pode lavar o bloco inteiro! Enxágue-o sob água morna corrente, aplique uma gota de sabão neutro líquido ou detergente de coco nas faces de microfibra e esfregue gentilmente com o dedo. Enxágue muito bem para tirar todo o sabão e deixe secar naturalmente à sombra. Não use secador de cabelo quente para não descolar o tecido."
+    },
+    {
+      "pergunta": "Ele pode ser usado em telas de TV ou Monitores?",
+      "resposta": "Sim! Ele funciona em qualquer tela de vidro ou LED/OLED (celular, tablet, notebook, TV, console portátil). Porém, pelo tamanho reduzido do bloco, usá-lo em uma TV de 55 polegadas inteira seria extremamente cansativo. Ele foi projetado idealmente para telas de até 15 polegadas."
+    }
+  ],
+  "conteudoDetalhado": [
+    {
+      "titulo": "O Teste de Gordura Extrema (Misto Quente)",
+      "texto": "Para colocar a prova o tecido de microfibra, sujamos de propósito a tela de um tablet com óleo de fritura e marcas profundas de dedo. Com limpadores comuns de microfibra barata, a gordura costuma apenas mudar de lugar, criando faixas esbranquiçadas difíceis de tirar. O revestimento deste gadget possui uma textura aveludada espessa que absorve as gotículas de óleo em vez de empurrá-las. Com duas borrifadas da nossa solução própria e uma passada firme de baixo para cima, a tela recuperou o aspecto de nova sem qualquer resíduo."
+    },
+    {
+      "titulo": "Lavagem e Durabilidade da Cola",
+      "texto": "Nossa grande preocupação era se o tecido de microfibra iria descolar do corpo plástico após a primeira lavagem. Mergulhamos o bloco em água morna com sabão por 2 horas e esfregamos com firmeza. A cola acrílica resistiu perfeitamente e as bordas não se soltaram. O tempo total de secagem em temperatura ambiente foi de 4 horas, o que significa que se você lavá-lo à noite, ele estará pronto para uso na manhã seguinte."
+    },
+    {
+      "titulo": "Solução de Carga Recomendada pelo Lab",
+      "texto": "Como ele frequentemente vem vazio para facilitar o transporte e evitar vazamentos na entrega, preparamos a fórmula perfeita de recarga caseira: 90% de água destilada (para não deixar manchas de calcário/minerais da água de torneira) e 10% de álcool isopropílico (que evapora rapidamente e dissolve a gordura da pele sem danificar o tratamento oleofóbico da tela do smartphone)."
+    }
+  ],
+  "dataPublicacao": "2026-07-01",
+  "dataAtualizacao": "2026-07-08"
+}

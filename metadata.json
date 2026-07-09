@@ -1,0 +1,6 @@
+{
+  "name": "Viral Hack",
+  "description": "Reviews sinceros de achados virais da internet. Testados e avaliados com rigor de laboratório e transparência total.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
