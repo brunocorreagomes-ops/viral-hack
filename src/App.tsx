@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
+import {HashRouter, Routes, Route, Navigate} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -15,12 +15,8 @@ import Metodologia from "./pages/Metodologia";
 import PoliticaPrivacidade from "./pages/PoliticaPrivacidade";
 
 export default function App() {
-  // Use Vite's BASE_URL for GitHub Pages subdirectory deployments (if base is set in config)
-  // Defaults to "/" for local development or custom domains
-  const basename = import.meta.env.BASE_URL || "/";
-
   return (
-    <BrowserRouter basename={basename}>
+    <HashRouter>
       <div className="relative min-h-screen bg-brand-dark flex flex-col justify-between font-sans selection:bg-brand-neon selection:text-brand-dark overflow-x-hidden">
         
         {/* Subtle background industrial grid and grain overlay on the entire site */}
@@ -51,6 +47,6 @@ export default function App() {
         <Footer />
 
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
