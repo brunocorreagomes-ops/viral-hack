@@ -22,6 +22,11 @@ export interface FAQItem {
   resposta: string;
 }
 
+export interface ComparacaoItem {
+  produto: string;
+  diferenca: string;
+}
+
 export interface Alternativa {
   nome: string;
   precoAproximado: string;
@@ -49,6 +54,7 @@ export interface Review {
   especificacoes: { [key: string]: string }; // Specs técnicas
   linksAfiliado: AffiliateLink[];
   alternativas: Alternativa[]; // Comparativo com 1-2 alternativas
+  comparacao?: ComparacaoItem[];
   faq: FAQItem[];
   conteudoDetalhado: {
     titulo: string;

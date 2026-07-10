@@ -75,6 +75,16 @@
       "plataforma": "Amazon"
     }
   ],
+  "comparacao": [
+    {
+      "produto": "Mini Processador de Alimentos USB",
+      "diferenca": "A Mini Seladora foca exclusivamente em estancar a entrada de ar em sacos abertos para manter alimentos crocantes. O Processador USB é focado no preparo rápido (triturar alho/cebola) antes de cozinhar. São complementares, mas a seladora é muito menor e possui ímã de geladeira."
+    },
+    {
+      "produto": "Clipes de Vedação Plásticos",
+      "diferenca": "Clipes plásticos convencionais são infinitamente mais duráveis e não usam pilhas, mas não criam vácuo nem barreira hermética contra umidade extrema. A seladora derrete o plástico para isolamento 100% à prova d'água."
+    }
+  ],
   "faq": [
     {
       "pergunta": "A mini seladora funciona com qualquer tipo de plástico?",

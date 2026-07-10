@@ -10,6 +10,7 @@ import ReviewVisualGallery from "../components/ReviewVisualGallery";
 import RatingBreakdown from "../components/RatingBreakdown";
 import CascadingCTA from "../components/CascadingCTA";
 import ReviewFAQ from "../components/ReviewFAQ";
+import ReviewComparacaoRapida from "../components/ReviewComparacaoRapida";
 import {
   ArrowLeft,
   Calendar,
@@ -469,6 +470,13 @@ export default function ReviewPage() {
               </table>
             </div>
           </div>
+        </section>
+      )}
+
+      {/* 6.5 QUICK COMPARISONS (OPTIONAL) */}
+      {review.comparacao && review.comparacao.length > 0 && (
+        <section className="mx-auto max-w-7xl px-4 sm:px-6">
+          <ReviewComparacaoRapida comparacoes={review.comparacao} produtoPrincipal={review.produto} />
         </section>
       )}
 
