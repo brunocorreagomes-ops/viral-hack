@@ -104,12 +104,24 @@ export default function Metodologia() {
       </div>
 
       {/* Final integrity callout */}
-      <div className="p-4 rounded-lg bg-brand-neon/5 border-2 border-dashed border-brand-neon/30 text-center space-y-2 max-w-2xl mx-auto">
-        <ShieldCheck className="h-8 w-8 text-brand-neon mx-auto" />
-        <span className="font-display text-lg text-white uppercase tracking-wider block">Nenhum Fabricante Compra Nossa Nota</span>
-        <p className="text-zinc-400 text-xs sm:text-sm font-sans leading-relaxed">
-          Se uma marca nos enviar um produto gratuitamente de forma unilateral para teste, nós o faremos, mas o produto receberá exatamente a nota que merece. Nós não fazemos assessoria de marketing. Fazemos assessoria de compra para o consumidor final.
-        </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+        <div className="p-5 rounded-lg bg-brand-neon/5 border-2 border-dashed border-brand-neon/30 text-center space-y-2">
+          <ShieldCheck className="h-8 w-8 text-brand-neon mx-auto" />
+          <span className="font-display text-lg text-white uppercase tracking-wider block">Independência Editorial</span>
+          <p className="text-zinc-400 text-xs sm:text-sm font-sans leading-relaxed">
+            Se uma marca nos enviar um produto gratuitamente de forma unilateral para teste, nós o faremos, mas o produto receberá exatamente a nota que merece. Nós não fazemos assessoria de marketing. Fazemos assessoria de compra para o consumidor final.
+          </p>
+        </div>
+
+        <div className="p-5 rounded-lg bg-zinc-950/80 border border-zinc-800 text-center space-y-2 flex flex-col justify-center">
+          <div className="text-brand-neon font-mono text-[10px] font-black uppercase tracking-wider block mb-1">
+            💻 CÓDIGO DE AUTO-AUDITORIA INTEGRAL
+          </div>
+          <span className="font-display text-lg text-white uppercase tracking-wider block">Nossos Sistemas se Auditam</span>
+          <p className="text-zinc-400 text-xs sm:text-sm font-sans leading-relaxed">
+            Para garantir que a teoria vire prática, nossos componentes de código possuem regras estritas: reviews com selo "Testado" exigem fotos reais ou caem em fallback vetorial imediato, e as declarações legais de afiliação são injetadas em nível de sistema, impedindo remoção humana de disclosures.
+          </p>
+        </div>
       </div>
 
     </div>

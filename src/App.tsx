@@ -8,6 +8,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ReviewPage from "./pages/ReviewPage";
+import CategoriaPage from "./pages/CategoriaPage";
+import RankingPage from "./pages/RankingPage";
 import Sobre from "./pages/Sobre";
 import Metodologia from "./pages/Metodologia";
 import PoliticaPrivacidade from "./pages/PoliticaPrivacidade";
@@ -34,6 +36,8 @@ export default function App() {
             {/* Main paths */}
             <Route path="/" element={<Home />} />
             <Route path="/review/:slug" element={<ReviewPage />} />
+            <Route path="/categoria/:slug" element={<CategoriaPage />} />
+            <Route path="/rankings/:slug" element={<RankingPage />} />
             <Route path="/sobre" element={<Sobre />} />
             <Route path="/metodologia" element={<Metodologia />} />
             <Route path="/politica-de-privacidade" element={<PoliticaPrivacidade />} />

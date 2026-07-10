@@ -9,6 +9,7 @@ import {Review} from "../types";
 import ReviewVisualGallery from "../components/ReviewVisualGallery";
 import RatingBreakdown from "../components/RatingBreakdown";
 import CascadingCTA from "../components/CascadingCTA";
+import ReviewFAQ from "../components/ReviewFAQ";
 import {
   ArrowLeft,
   Calendar,
@@ -478,29 +479,7 @@ export default function ReviewPage() {
 
       {/* 9. FAQ OF THE REVIEW - ACCORDION LAYOUT (FOR SEO & FAQPage JSON-LD) */}
       <section className="mx-auto max-w-7xl px-4 sm:px-6">
-        <div className="border border-brand-border bg-brand-card rounded-lg p-5 sm:p-6 space-y-6">
-          <div className="border-b border-brand-border pb-3 flex items-center gap-2">
-            <HelpCircle className="h-5 w-5 text-brand-neon" />
-            <h3 className="font-display text-xl sm:text-2xl text-white uppercase tracking-wider">Perguntas Frequentes (FAQ)</h3>
-          </div>
-
-          <div className="grid grid-cols-1 gap-4">
-            {review.faq.map((item, idx) => (
-              <div 
-                key={idx} 
-                id={`faq-item-${idx}`} 
-                className="p-4 rounded-md bg-black/40 border border-zinc-800/60 hover:border-zinc-800 transition-colors duration-200"
-              >
-                <h4 className="font-sans font-extrabold text-white text-sm sm:text-base mb-2">
-                  {item.pergunta}
-                </h4>
-                <p className="text-zinc-300 font-sans text-xs sm:text-sm leading-relaxed">
-                  {item.resposta}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
+        <ReviewFAQ faq={review.faq} produto={review.produto} />
       </section>
 
     </div>

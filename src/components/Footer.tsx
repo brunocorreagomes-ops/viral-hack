@@ -13,8 +13,8 @@ export default function Footer() {
         
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
           
-          {/* Column 1: Brand & Description - 6 cols */}
-          <div className="md:col-span-6 space-y-4">
+          {/* Column 1: Brand & Description - 4 cols */}
+          <div className="md:col-span-4 space-y-4">
             <Link to="/" className="inline-flex items-center gap-2 group">
               <div className="flex h-8 w-8 items-center justify-center rounded-lg border border-brand-neon bg-brand-neon/10 font-mono text-base font-bold text-brand-neon">
                 VH
@@ -29,23 +29,55 @@ export default function Footer() {
           </div>
 
           {/* Column 2: Navigation - 3 cols */}
-          <div className="md:col-span-3 space-y-3">
+          <div className="md:col-span-2 space-y-3">
             <span className="font-mono text-xs uppercase text-brand-neon tracking-wider font-bold">Menu Principal</span>
             <ul className="space-y-2 font-mono text-xs text-zinc-400">
               <li>
                 <Link to="/" className="hover:text-white transition-colors">→ Achados Virais</Link>
               </li>
               <li>
-                <Link to="/metodologia" className="hover:text-white transition-colors">→ Metodologia de Nota</Link>
+                <Link to="/metodologia" className="hover:text-white transition-colors">→ Metodologia</Link>
               </li>
               <li>
-                <Link to="/sobre" className="hover:text-white transition-colors">→ Manifesto de Honestidade</Link>
+                <Link to="/sobre" className="hover:text-white transition-colors">→ Nosso Manifesto</Link>
               </li>
             </ul>
           </div>
 
-          {/* Column 3: Legal & Admin - 3 cols */}
-          <div className="md:col-span-3 space-y-3">
+          {/* Column 3: Categories - 2 cols */}
+          <div className="md:col-span-2 space-y-3">
+            <span className="font-mono text-xs uppercase text-zinc-300 tracking-wider font-bold">Categorias</span>
+            <ul className="space-y-2 font-mono text-xs text-zinc-400">
+              <li>
+                <Link to="/categoria/cozinha" className="hover:text-white transition-colors">→ Cozinha</Link>
+              </li>
+              <li>
+                <Link to="/categoria/organizacao" className="hover:text-white transition-colors">→ Organização</Link>
+              </li>
+              <li>
+                <Link to="/categoria/tech" className="hover:text-white transition-colors">→ Tecnologia</Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Column 4: Rankings - 2 cols */}
+          <div className="md:col-span-2 space-y-3">
+            <span className="font-mono text-xs uppercase text-zinc-300 tracking-wider font-bold">Rankings 2026</span>
+            <ul className="space-y-2 font-mono text-xs text-zinc-400">
+              <li>
+                <Link to="/rankings/cozinha" className="hover:text-white transition-colors">→ Top Cozinha</Link>
+              </li>
+              <li>
+                <Link to="/rankings/organizacao" className="hover:text-white transition-colors">→ Top Organização</Link>
+              </li>
+              <li>
+                <Link to="/rankings/tech" className="hover:text-white transition-colors">→ Top Tecnologia</Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Column 5: Legal & Admin - 2 cols */}
+          <div className="md:col-span-2 space-y-3">
             <span className="font-mono text-xs uppercase text-zinc-300 tracking-wider font-bold">Termos e Notas</span>
             <ul className="space-y-2 font-mono text-xs text-zinc-400">
               <li>
