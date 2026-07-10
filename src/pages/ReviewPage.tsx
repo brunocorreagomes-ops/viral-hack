@@ -6,10 +6,9 @@
 import {useParams, Link} from "react-router-dom";
 import {Helmet} from "react-helmet-async";
 import {Review} from "../types";
-import ProductBlueprint from "../components/ProductBlueprint";
+import ReviewVisualGallery from "../components/ReviewVisualGallery";
 import RatingBreakdown from "../components/RatingBreakdown";
 import CascadingCTA from "../components/CascadingCTA";
-import Disclosure from "../components/Disclosure";
 import {
   ArrowLeft,
   Calendar,
@@ -222,11 +221,12 @@ export default function ReviewPage() {
               <span className="font-mono text-[10px] text-zinc-500 uppercase">ID_REF: #{review.slug.toUpperCase()}</span>
             </div>
             
-            <ProductBlueprint 
+            <ReviewVisualGallery 
               slug={review.slug} 
               name={review.produto} 
               price={review.precoMedio}
               metodologia={review.metodologia}
+              fotos={review.fotos}
             />
 
             {/* Quick Specs Box */}
@@ -471,12 +471,7 @@ export default function ReviewPage() {
         </section>
       )}
 
-      {/* 7. REUSABLE TRANSPARENCY AFFILIATE DISCLOSURE (CRITICAL DIRECTIVE) */}
-      <section className="mx-auto max-w-7xl px-4 sm:px-6">
-        <Disclosure />
-      </section>
-
-      {/* 8. CASCADING AFFILIATE CTA BUTTONS (PRIORITY CONSTRAINED DESIGN) */}
+      {/* 7. CASCADING AFFILIATE CTA BUTTONS & INTEGRATED DISCLOSURE (PRIORITY CONSTRAINED DESIGN) */}
       <section id="affiliate-links-cascade-section" className="mx-auto max-w-7xl px-4 sm:px-6">
         <CascadingCTA links={review.linksAfiliado} produto={review.produto} />
       </section>
