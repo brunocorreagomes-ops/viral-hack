@@ -10,10 +10,9 @@ import Disclosure from "./Disclosure";
 interface CascadingCTAProps {
   links: AffiliateLink[];
   produto: string;
-  hideDisclosure?: boolean;
 }
 
-export default function CascadingCTA({ links, produto, hideDisclosure = false }: CascadingCTAProps) {
+export default function CascadingCTA({ links, produto }: CascadingCTAProps) {
   // Sort links by priority (ascending, i.e., priority 1 goes first)
   const sortedLinks = [...links].sort((a, b) => a.prioridade - b.prioridade);
 
@@ -156,11 +155,9 @@ export default function CascadingCTA({ links, produto, hideDisclosure = false }:
         </div>
       </div>
 
-      {!hideDisclosure && (
-        <div id="cta-disclosure-wrapper" className="pt-2">
-          <Disclosure />
-        </div>
-      )}
+      <div id="cta-disclosure-wrapper" className="pt-2">
+        <Disclosure />
+      </div>
     </div>
   );
 }
